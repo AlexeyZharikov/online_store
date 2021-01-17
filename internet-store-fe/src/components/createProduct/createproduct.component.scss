@@ -1,0 +1,25 @@
+
+.createProduct {
+  margin-top: 90px;
+  color: #f8f8f8;
+  font-size: 23px;
+
+  .form-group {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .form-text {
+      color: #000;
+      font-size: 23px;
+    }
+    .submit-btn{
+      width: 100px;
+      height: 35px;
+      color: #000;
+      font-size: 23px;
+    }
+  }
+}

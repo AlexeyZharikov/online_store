@@ -1,0 +1,186 @@
+.footer {
+  padding-top: 65px;
+  background: #f8f8f8;
+
+  .footer-inner {
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+
+    .footer-col-first {
+      width: 40%;
+
+      .footer-logo {
+        font-size: 46px;
+        font-weight: 700;
+        color: #cccccc;
+        margin-bottom: 30px;
+      }
+      .footer-text {
+        margin-bottom: 30px;
+        font-size: 15px;
+        color: #cccccc;
+        font-family: "Roboto", sans-serif;
+      }
+      .footer-social {
+        margin-bottom: 25px;
+
+        .footer-social-header {
+          font-size: 14px;
+          color: black;
+          padding-bottom: 15px;
+          border-bottom: 1px solid #e5e5e5;
+
+          .footer-social-header b {
+            font-size: 18px;
+            font-weight: 700;
+          }
+        }
+        .footer-social-content {
+          padding-top: 15px;
+          font-family: "Roboto", sans-serif;
+          font-size: 15px;
+          color: #999999;
+          font-weight: 300;
+          font-style: italic;
+
+          .footer-social-content a {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+            font-size: 18px;
+            color: #95e1d3;
+          }
+        }
+      }
+      .subscribe {
+        max-width: 380px;
+        width: 100%;
+        display: flex;
+        .subsc_input {
+          width: 60%;
+          color: black;
+          height: 40px;
+          background: white;
+          border: 1px solid #e7e7e7;
+          border-right: 0;
+          font-size: 15px;
+          font-style: italic;
+          font-family: "Roboto", sans-serif;
+          font-weight: 300;
+          padding: 12px;
+          line-height: 1.1;
+        }
+
+        .subsc_input::placeholder {
+          color: #cccccc;
+        }
+
+        .subsc_input:focus {
+          outline: 0;
+          border-color: #7fc0b4;
+        }
+
+        .subsc_btn {
+          width: 40%;
+          padding: 12px 30px;
+          line-height: 1.1;
+          height: 40px;
+          font-family: "Roboto", sans-serif;
+          font-weight: 700;
+          background-color: #95e1d3;
+          border: 0;
+          cursor: pointer;
+          color: white;
+          text-transform: uppercase;
+          font-size: 14px;
+          transition: background-color 0.2s linear;
+        }
+
+        .subsc_btn:hover {
+          background-color: #7fc0b4;
+        }
+
+        .subsc_btn:focus {
+          outline: 0;
+        }
+      }
+    }
+    .footer-title {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 300;
+      color: black;
+      margin: 30px 0;
+    }
+    .footer-col-second {
+      width: 29%;
+
+      .blogs {
+        .blogs-item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 30px;
+
+          .blogs-img {
+            width: 120px;
+            height: 80px;
+          }
+
+          .blogs-content {
+            padding-left: 20px;
+
+            .blogs-title {
+              display: block;
+              line-height: 1.5;
+              margin-bottom: 10px;
+              color: black;
+              font-size: 12px;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+
+            .blogs-title:hover {
+              text-decoration: underline;
+            }
+
+            .blogs-date {
+              font-size: 13px;
+              color: #999999;
+              font-style: italic;
+              font-weight: 300;
+              font-family: "Roboto", sans-serif;
+            }
+          }
+        }
+      }
+    }
+    .footer-col-third {
+      width: 22%;
+      .footer-title {
+        .instagram {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .instagr-item {
+            width: 32%;
+            border-bottom: 1px solid white;
+            .instagr-item img {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    border-top: 1px solid #e5e5e5;
+    .copyright span {
+      color: #f38181;
+    }
+  }
+}

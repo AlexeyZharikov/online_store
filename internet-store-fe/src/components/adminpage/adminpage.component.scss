@@ -1,0 +1,32 @@
+button {
+  background-color: transparent;
+  height: 44px;
+  cursor: pointer;
+}
+button:focus {
+  outline: none !important;
+}
+.create-btn{
+  margin-top: 50px;
+}
+
+.create-btn,
+.edit-btn,
+.delete-btn {
+  display: inline-block;
+  vertical-align: top;
+  border: 3px solid white;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 30px;
+  transition: background 0.2s linear, color 0.2s linear;
+}
+.create-btn:hover,
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: white;
+  color: yellow;
+}
