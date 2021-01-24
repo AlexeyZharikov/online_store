@@ -1,0 +1,31 @@
+body {
+  background: url(../../img/intro/intro.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .products {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+
+    .products-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .product_item {
+        margin-top: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
+        flex-grow: 1;
+        max-width: 30%;
+
+        color: #f8f8f8;
+        font-size: 23px;
+      }
+    }
+  }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import Intro from '../intro/intro.component.jsx';
-import Footer from '../footer/footer.component.jsx';
+// import Footer from '../footer/footer.component.jsx';
 
 function Home() {
   return (
     <div>
       <Intro/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
 
   )

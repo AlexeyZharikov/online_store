@@ -1,6 +1,5 @@
 import React from 'react';
-
-import {putProduct, getProduct, getProducts} from '../../services/fakeapi.js';
+import {putProduct, getProduct} from '../../services/fakeapi.js';
 
 
 class editProduct extends React.Component {
@@ -26,7 +25,7 @@ class editProduct extends React.Component {
     }
 
     onChangeTitle(event){
-      console.log('RUKAVA')
+      // console.log('RUKAVA')
         this.setState({title: event.target.value});
     }
 
